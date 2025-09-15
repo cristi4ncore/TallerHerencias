@@ -18,7 +18,7 @@ class Program
             var trapeze = new Trapeze(nameof(Trapeze), 10, 20, 30, 40, 20);
 
 
-            var figures = new List<GeometricFigure>() {circle,square,rhombus,kite, rectangle, parallelogram,triangle, trapeze };
+            var figures = new List<GeometricFigure>() {circle,square,rhombus,kite, rectangle, parallelogram,triangle, trapeze};
             foreach (var figure in figures)
             {
                 Console.WriteLine(figure);
